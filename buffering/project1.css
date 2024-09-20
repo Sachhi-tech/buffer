@@ -1,0 +1,35 @@
+#square{
+    background-color: azure;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    height: 400px;
+    width: 300px;
+    position: absolute;
+    left: 500px;
+    top: 125px;
+}
+
+#circle{
+    background-color: azure;
+    border-width: 4px;
+    border-style: solid;
+    border-color:rgb(246, 250, 195);
+    border-top: 4px solid rgb(0, 0, 0);
+    height: 25px;
+    width: 25px;
+    border-radius: 50px;
+    position: absolute;
+    left: 135px;
+    top: 200px;
+    animation: poject1 1s ease-in 0s infinite normal  ;
+}
+
+@keyframes poject1 {
+    from{
+        transform:rotate(0deg)
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
